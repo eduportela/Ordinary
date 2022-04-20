@@ -1,0 +1,210 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #e5e5e5;
+  font-family: "Clash Display", sans-serif;
+  background-image: url(/img/background.png);
+  background-position: 0 0;
+  background-size: cover;
+  position: relative;
+}
+#dra {
+  width: 650px;
+  height: 949px;
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 341px;
+}
+#star {
+  width: 422px;
+  height: 422px;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 536px;
+  opacity: 45%;
+  animation: spin 5s infinite;
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: RotateZ(36deg);
+  }
+}
+
+/* Header */
+
+.header-container {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 1140px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  margin-left: 100px;
+}
+
+header img {
+  width: 93px;
+  height: 30px;
+}
+
+.navbar {
+  height: 16px;
+  width: 371px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar ul {
+  margin: 0 30px;
+  font-size: 18px;
+}
+
+.navbar ul:hover {
+  color: white;
+  transition: 0.1s ease all;
+  cursor: pointer;
+}
+
+header button {
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-family: "Clash Display", sans-serif;
+  padding: 18px 25px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+header button:hover {
+  background-color: white;
+  transition: 0.1s ease all;
+  cursor: pointer;
+  color: black;
+  border: 1px black solid;
+}
+
+/*  Main  */
+
+.main-container {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 20px;
+}
+
+.top-left {
+  width: 452px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+.top-left h1 {
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 600;
+}
+.top-left h1 img {
+  width: 40px;
+  height: 40px;
+}
+
+.top-left p {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.top-left button {
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-family: "Clash Display", sans-serif;
+  padding: 18px 25px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.top-left button:hover {
+  background-color: white;
+  transition: 0.1s ease all;
+  cursor: pointer;
+  color: black;
+  border: 1px black solid;
+}
+
+.top-right {
+  margin-left: 900px;
+  margin-top: -400px;
+}
+
+.top-right h2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+
+.top-right h3 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.top-right img {
+  margin: 0 10px;
+  width: 100px;
+  height: 151px;
+}
+
+.top-right img:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+  transition: 0.15s ease;
+}
+
+.bottom-left {
+  margin-top: -180px;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 188px;
+  margin-left: 20px;
+}
+
+.bottom-left h4 {
+  font-size: 35px;
+  line-height: 35px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.bottom-right {
+  max-width: 324px;
+  margin-right: 160px;
+}
